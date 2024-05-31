@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">MyNewDivaBeta</string>
+    <string name="dwelcome"><b>Welcome to DIVA!</b></string>
+    <string name="dintro">DIVA (Damn insecure and vulnerable App) is an App intentionally
+                          designed to be insecure. The aim of the App is to teach
+                          developers/QA/security professionals, flaws that are
+                          generally present in the Apps due poor or insecure coding
+                          practices. If you are reading this you want to either learn
+                          App pentesting or secure coding and I sincerely hope that
+                          DIVA solves your purpose. So, sit back and enjoy the ride.</string>
+
+    <string name="d1">1. Check Screenshot Disable</string>
+    <string name="d2">2. Runtime Exec Check</string>
+    <string name="d3">4. Check Key Store Null Pwd Hardcore Pwd</string>
+    <string name="d4">5. Http Checking In Url</string>
+    <string name="d5">6. Webview Set Javascriptenabled Potential Xss</string>
+    <string name="d6">7. Webview Allow File Access</string>
+    <string name="d7">8. Get Androidid With Secure String</string>
+    <string name="d8">9.10. Check Base64 String</string>
+    <string name="d9">11. Allow All Hostname Verifier</string>
+    <string name="d10">12. Check Security Method And Cipher</string>
+    <string name="d11">13. Webview Pwd Storage In Plaintext</string>
+    <string name="d12">14. Sql Injection</string>
+    <string name="d13">15. Internal Storage</string>
+    <string name="d14">16. External Storage</string>
+    <string name="d15">17. File Delete</string>
+    <string name="d16">18. Secure Random Seed</string>
+    <string name="d17">19. Telecommunication</string>
+    <string name="d18">20. Send Sns</string>
+    <string name="d19">21. Insecure Logging</string>
+    <string name="d20">22.23. Write Read Clipboard</string>
+    <string name="d21">24. Ssl Certificate Information</string>
+    <string name="d22">25. Strandhogg1.0</string>
+    <string name="d23">26. Repeat Use Crypto Key</string>
+    <string name="d24">27. Insecure Random</string>
+    <string name="d25">28. Use Setwebviewclient</string>
+    <string name="d26">29.Overlay Attack Defence</string>
+
+    <string name="log_intro"><b>Objective</b>: Find out what is being logged where/how and the vulnerable code.\n
+                             <b>Hint</b>: Insecure logging occurs when developers intentionally
+                             or unintentionally log sensitive information such as
+                             credentials, session IDs, financial details etc.</string>
+    <string name="log_enter">Enter your credit card number</string>
+    <string name="log_checkout">Check out</string>
+
+    <string name="ids1_intro"><b>Objective</b>: Find out where/how the credentials are being stored and the vulnerable code.\n
+                             <b>Hint</b>: Insecure data storage is the result of storing confidential information insecurely
+                             on the system i.e. poor encryption, plain text, access control issues etc. </string>
+    <string name="ids1_user">Enter 3rd party service user name</string>
+    <string name="ids1_password">Enter 3rd party service password</string>
+    <string name="ids1_save">SAVE</string>
+
+    <string name="ivi1_intro"><b>Objective</b>: Try to access all user data without knowing any user name. There are three users
+                             by default and your task is to output data of all the three users with a single malicious search.\n
+                             <b>Hint</b>: Improper or no input validation issue arise when the input is not filtered or validated
+                             before using it. When developing components that take input from outside, always validate it.
+                             For ease of testing there are three users already present in the database, for example one of them is
+                             admin, you can try searching for admin to test the output.</string>
+    <string name="ivi1_enter">Enter user name to search</string>
+    <string name="ivi1_search">SEARCH</string>
+
+    <string name="oad_intro"><b>Objective</b>: Find out the function about screen overlay attack.\n
+                            1. There is a function which is great for preventing app to screen overlay attack.\n
+                            2. There are three FLAGs which is danger of screen overlay attack.</string>
+    <string name="oad_button">PREVENT</string>
+    <string name="oad_button2">VULNERABLE</string>
+
+    <string name="rpkey_intro"><b>Objective</b>: MSTG-CRYPTO-5\nThe app does not reuse the same cryptographic key for multiple purposes.</string>
+
+    <string name="wviewXSS_intro"><b>Objective</b>: The vulnerable code have potential webView XSS attack.</string>
+    <string name="wview_enter">Enter the URL to view</string>
+    <string name="wview_view">VIEW</string>
+
+    <string name="httpck_intro"><b>Objective</b>: Checking whether use https to access network.</string>
+    <string name="httpck_enter">Enter the URL to view</string>
+    <string name="httpck_view">VIEW</string>
+
+    <string name="setwview_intro"><b>Objective</b>: Checking whether use setWebViewClient to open webview.</string>
+
+    <string name="screenshotView_intro"><b>Objective</b>: Checking whether use FLAG_SECURE to disable screenshot.</string>
+
+    <string name="randSeed_intro"><b>Objective</b>: MSTG-CRYPTO-6 All random values are generated using a sufficiently secure random number generator.\n
+                                1. Using insecure random generator.\n
+                                2. Using SecureRandom to generate but set same seed.\n</string>
+    <string name="randomSeedBtn">RANDOM</string>
+    <string name="securerandomSeedBtn">SECURE RANDOM</string>
+
+    <string name="clipboard_intro"><b>Objective</b>: Checking whether there is the event that user using the clipboard</string>
+    <string name="copyfield_intro">Copy the text and check the clipboard</string>
+    <string name="pastefield_intro">Paste the text and check the clipboard</string>
+    <string name="copy_hint">Type something to copy</string>
+    <string name="paste_hint">Paste words you typed</string>
+    <string name="copybtn_text">COPY IT!</string>
+    <string name="pastebtn_text">PASTE IT!</string>
+    <string name="check_text">Check!</string>
+    <string name="title_activity_end_point">EndPointActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+</resources>

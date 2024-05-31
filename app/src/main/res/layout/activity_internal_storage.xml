@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InternalStorageActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Internal file with MODE_WORLD_READABLE or MODE_WORLD_WRITABLE." />
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Enter the text you want to write:" />
+        <EditText
+            android:id="@+id/Write_File_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+        <Button
+            android:id="@+id/Readable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Readable"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/Writable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Writable"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/Read_Write"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read and Writable"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

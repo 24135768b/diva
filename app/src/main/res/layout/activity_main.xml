@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="30dp" android:textStyle="bold" android:id="@+id/textWelcome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dwelcome" android:layout_centerHorizontal="true"/>
+                    <TextView android:gravity="fill" android:id="@+id/textIntro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dintro" android:layout_below="@+id/textWelcome" android:layout_alignParentLeft="true"/>
+                    <Button android:id="@+id/d1button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d1" android:layout_below="@+id/textIntro" android:layout_alignParentLeft="true" android:layout_alignParentRight="false" android:layout_centerVertical="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d2button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d2" android:layout_below="@+id/d1button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d3button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d3" android:layout_below="@+id/d2button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d4button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d4" android:layout_below="@+id/d3button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d5button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d5" android:layout_below="@+id/d4button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d6button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d6" android:layout_below="@+id/d5button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d7button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d7" android:layout_below="@+id/d6button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d8button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d8" android:layout_below="@+id/d7button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d9button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d9" android:layout_below="@+id/d8button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d10button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d10" android:layout_below="@+id/d9button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d11button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d11" android:layout_below="@+id/d10button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d12button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d12" android:layout_below="@+id/d11button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d13button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d13" android:layout_below="@+id/d12button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d14button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d14" android:layout_below="@+id/d13button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d15button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d15" android:layout_below="@+id/d14button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d16button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d16" android:layout_below="@+id/d15button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d17button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d17" android:layout_below="@+id/d16button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d18button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d18" android:layout_below="@+id/d17button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d19button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d19" android:layout_below="@+id/d18button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d20button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d20" android:layout_below="@+id/d19button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d21button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d21" android:layout_below="@+id/d20button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d22button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d22" android:layout_below="@+id/d21button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d23button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d23" android:layout_below="@+id/d22button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d24button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d24" android:layout_below="@+id/d23button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d25button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d25" android:layout_below="@+id/d24button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d26button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text= "@string/d26" android:layout_below="@+id/d25button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d27button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="30. Endpoint Test" android:layout_below="@+id/d26button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <Button android:id="@+id/d28button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="30. Webiview addJavascriptInterface" android:layout_below="@+id/d26button" android:layout_alignParentLeft="true" android:onClick="startChallenge"/>
+                    <!--                    total 30 function -->
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
